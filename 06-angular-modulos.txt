@@ -1,0 +1,14 @@
+MODULOS
+
+Son una gran forma de organizar una aplicación y extender sus funcionalidades desde librerías
+externas.
+
+Son contenedores para bloques cohesivos de código dedicados a:
+- un dominio de la aplicación
+- un flujo de trabajo
+- un conjunto de capacidades estrechamente relacionadas
+
+Los módulos pueden contener:
+- componentes 
+- servicios o providers
+

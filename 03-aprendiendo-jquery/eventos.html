@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo JQuery</title>
+
+    <!-- Adding JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+    </script>
+
+    <script src="js/02-eventos.js"></script>
+
+    <style>
+        #caja {
+            width: 250px;
+            height: 250px;
+            border: 2px solid black;
+            background: yellowgreen;
+        }
+
+        /*
+        #caja:hover {
+            transition: ease-in;
+            background: blanchedalmond;
+            cursor: pointer;
+        }*/
+
+        input {
+            padding: 10px;
+            width: 300px;
+            font-size: 20px;
+        }
+
+        #datos {
+            border: 2px dashed black;
+            display: none;
+        }
+
+        #sigueme {
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            display: block;
+            background: yellow;
+            opacity: 0.3;
+            border: 2px solid black;
+            border-radius: 999px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <h1>Aprendiendo JQuery</h1>
+    
+    <div id="sigueme"></div>
+
+    <form action="">
+        <input type="text" id="nombre">
+        <div id="datos"></div>
+    </form>
+    <br>
+
+    <div id="caja">
+        Soy una caja
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+PLANTILLAS
+
+Las plantillas van a definir la vista de los componentes.
+
+Son htmls y tienen sintaxis especial de Angular. 
+Trabajando con el databinding y las directivas.

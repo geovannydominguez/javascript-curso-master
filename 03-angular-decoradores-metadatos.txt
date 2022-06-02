@@ -1,0 +1,8 @@
+DECORADORES Y METADATOS
+
+Con los decoradores (patrón de diseño) vamos a configurar de forma dinámica 
+atributos/metadatos de las clases y componentes.
+
+Los metadatos van a describir a las clases pero también describen relaciones,
+por ejemplo si tenemos un componente y una plantilla el metadato se va a encargar
+de decirle a Angular que ese componente y esa plantilla van juntos, entre otras muchas cosas.
